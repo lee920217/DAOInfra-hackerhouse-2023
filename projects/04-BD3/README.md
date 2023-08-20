@@ -30,8 +30,6 @@ To provide project initiators with a platform where they can effectively showcas
 - Collaboration and incentives completed through smart contracts.
 
 ## Team
-- **Sanzhi** _Serial entrepreneur, deeply involved in DAO organizations, head of R&D operations for DAOs._
-- **Error404** _Ph.D. candidate of University of Liverpool_
 
 |           | 中文描述                                 | 英文翻译        |
 |-----------|--------------------------------------|-------------|
