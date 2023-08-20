@@ -20,24 +20,30 @@ const MediaCard:React.FC<MediaCardProps> = ({ image, title, chips, type, network
                     title={title}
                 />
                 <CardContent className={styles.CardContentContainer}>
-                    <Typography gutterBottom variant="h5" component="div">
-                        {heading}
-                    </Typography>
+                    {/*<Typography gutterBottom variant="h5" component="div">*/}
+                    {/*    {heading}*/}
+                    {/*</Typography>*/}
                     <div>
                         {chips.map((chipData, index) => (
                             <Chip size="small" key={index} label={chipData} style={{ margin: '0 8px 4px 0' }} />
                         ))}
                     </div>
-                    <Typography gutterBottom variant="body1" component="div">
-                        {type}
-                    </Typography>
-                    <Typography gutterBottom variant="body1" component="div">
-                        {network}
-                    </Typography>
-                    <Typography gutterBottom variant="body1" component="div">
-                        {twitterName}
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
+                    {/*<Typography gutterBottom variant="body1" component="div">*/}
+                    {/*    {type}*/}
+                    {/*</Typography>*/}
+                    {/*<Typography gutterBottom variant="body1" component="div">*/}
+                    {/*    {network}*/}
+                    {/*</Typography>*/}
+                    {/*<Typography gutterBottom variant="body1" component="div">*/}
+                    {/*    {twitterName}*/}
+                    {/*</Typography>*/}
+                    <Typography variant="body2" color="text.secondary" style={{
+                        overflow: 'hidden',
+                        textOverflow: 'ellipsis',
+                        display:'-webkit-box',
+                        WebkitBoxOrient: 'vertical',
+                        WebkitLineClamp: 3
+                    }}>
                         {description}
                     </Typography>
                 </CardContent>

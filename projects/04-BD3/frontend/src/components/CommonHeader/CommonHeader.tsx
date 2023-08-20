@@ -46,7 +46,7 @@ export default function Header() {
                 </p>
             </Link>
             {!walletAddress && (
-                <Button color="primary" onClick={handleConnectWallet}>
+                <Button className={styles.connectBtn} color="primary" onClick={handleConnectWallet}>
                     Connect Wallet
                 </Button>
             )}
