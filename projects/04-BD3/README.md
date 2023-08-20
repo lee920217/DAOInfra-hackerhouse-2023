@@ -34,7 +34,7 @@ To provide project initiators with a platform where they can effectively showcas
 |           | 中文描述                                 | 英文翻译        |
 |-----------|--------------------------------------|-------------|
 | San zhi   | 连续创业者，深度参与 DAO 组织，研发类 DAO 运营负责人      | Cute Guy    |
-| Error4040 | 知名大学不知名A.I博士肄业生, 全栈工程师，滑板，滑雪自媒体      | A man       |
+| Error404 | 知名大学不知名A.I博士肄业生, 全栈工程师，滑板，滑雪自媒体      | A man       |
 | Aaron     | 汇金方向老克勒，在交易所没做过web3产研的后端负责人| A developer |
 | KJ   | 共识密码学博士，去中心化守护者，知名网络喷子，技术考古学家 | A Penzi     |
 | lichaeM   | 外表不年轻的Crypto YoungG、什么技术都懂一点点、安静的阅读家、DAO fresher | A Man       |
